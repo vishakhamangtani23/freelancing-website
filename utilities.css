@@ -1,0 +1,77 @@
+.d-flex-row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.d-flex-col
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.btn-success
+{
+    background-color: #28a745;
+}
+.btn
+{
+   border-radius: 3px;
+   text-decoration: none;
+   padding: 6px;
+   
+}
+
+.hero
+{
+    width:auto;
+    height: 100vh;
+    background-image: url(images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.headings
+{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.cards
+{
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.inner-cards
+{
+    width: 25%;
+    margin: 10px;
+}
+
+.description
+{
+    height: 400px;
+    width: 50%;
+    padding: 30px;
+    background-color: #efefef;
+}
+.person-image
+{
+    width: 50%;
+}
+.jobs-for-you
+{
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.jobs-for-you > img
+{
+    width: 24%;
+    height: 200px;
+    margin: 2px;
+}
