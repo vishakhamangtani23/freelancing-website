@@ -1,68 +1,92 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #333;
-    font-family: 'Poppins', sans-serif;
-}
-.navbar
-{
-    height: 70px;
-}
-.navbar *
-{
-    background: #333;
-    opacity: 0.9;
-    color : white;
 
+.navbar * {
+  background: #333;
+  opacity: 0.9;
+  color: white;
 }
-.navbar > nav , ul
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+.navbar > nav,
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.name-logo > h1
-{
-    font-size:2rem;
+.name-logo > h1 {
+  font-size: 2rem;
 }
-.name-logo > #name > span
-{
-    color: #28a745;
+.name-logo > #name > span {
+  color: #28a745;
 }
-#name
-{
-    padding-left: 15px;
+#name {
+  padding-left: 15px;
 }
-.lists  > li 
-{
-    list-style-type: none;
-    margin: 10px;
-    align-items: center;
-    
+.lists > li {
+  list-style-type: none;
+  margin: 10px;
+  align-items: center;
+}
+.content {
+  color: white;
+  height: 100%;
+  font-size: 1.6em;
+}
+.content * {
+  color: #333;
+}
+.inner-cards > i {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50px;
+  background-color: #28a745;
+}
+.inner-cards > h4 {
+  margin: 10px;
+}
+.inner-cards > p {
+  text-align: center;
+}
+.description * {
+  margin: 3px;
+}
+.member {
+  width: 100%;
+}
+.member > img {
+  border-radius: 50%;
+  width: 60%;
+}
+.contact-us {
+  margin: 10px 10px 10px 10px;
+  /* width: 100%; */
+  height: 400px;
+}
+.left-image {
+  width: 50%;
+  height: 100%;
+}
+.left-image > img {
+  height: 100%;
+  width: 100%;
+}
+.form {
+  background: #edeff1;
+  padding: 20px;
+  width: 50%;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.form * {
+  width: 100%;
+}
+form > div > * {
+  padding: 3px;
+  margin: 3px;
+  border: 0px solid white;
+}
 
-}
-.content
-{
-    color: #000;
-    height: 100%;
-    font-size: 1.6em;
-}
-.inner-cards > i
-{
-    padding: 10px;
-    margin: 10px;
-    border-radius: 50px;
-    background-color: #28a745;
-}
-.inner-cards > h4
-{
-    margin: 10px;
-}
-.inner-cards > p
-{
-    text-align:center;
+.footer * {
+  color: white;
+  margin: 1px 3px 1px 3px;
+  padding: 3px;
 }

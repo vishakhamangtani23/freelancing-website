@@ -1,77 +1,90 @@
-.d-flex-row
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    font-family: "Poppins", sans-serif;
+  }
+  .d-flex-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.d-flex-col
-{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
-.btn-success
-{
-    background-color: #28a745;
-}
-.btn
-{
-   border-radius: 3px;
-   text-decoration: none;
-   padding: 6px;
-   
+.d-flex-col {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.hero
-{
-    width:auto;
-    height: 100vh;
-    background-image: url(images/bg-img.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    
+.btn-success {
+  background-color: #28a745;
+  text-align: center;
+  margin-top: 3px;
 }
-.headings
-{
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-}
-.cards
-{
-    padding: 10px;
-    justify-content: space-evenly;
-}
-.inner-cards
-{
-    width: 25%;
-    margin: 10px;
+.btn {
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 6px;
+  text-align: center;
 }
 
-.description
-{
-    height: 400px;
-    width: 50%;
-    padding: 30px;
-    background-color: #efefef;
+.navbar {
+    height: 70px;
+  }
+
+.hero {
+  width: auto;
+  height: 100vh;
+  background-image: url(images/bg-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.person-image
-{
-    width: 50%;
+.headings {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
 }
-.jobs-for-you
-{
-    flex-wrap: wrap;
-    width: 100vw;
+.cards {
+  padding: 10px;
+  justify-content: space-evenly;
 }
-.jobs-for-you > img
-{
-    width: 24%;
-    height: 200px;
-    margin: 2px;
+.inner-cards {
+  width: 25%;
+  margin: 10px;
+}
+
+.description {
+  height: 400px;
+  width: 50%;
+  padding: 30px;
+  background-color: #efefef;
+}
+.person-image {
+  width: 50%;
+  position: relative;
+  right: 40px;
+  bottom: 15px;
+  border-radius: 20px;
+}
+.person-image-2 {
+  width: 50%;
+  position: relative;
+  left: 250px;
+  bottom: 15px;
+  border-radius: 20px;
+}
+.jobs-for-you {
+  flex-wrap: wrap;
+  /* width: 100vw; */
+}
+.jobs-for-you > img {
+  width: 24%;
+  height: 200px;
+  margin: 2px;
+}
+.footer {
+  padding: 10px;
+  margin: 5px;
+  background: #5a5a5a;
 }
